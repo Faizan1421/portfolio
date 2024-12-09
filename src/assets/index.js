@@ -25,7 +25,7 @@ import threejs from "./tech/threejs.svg";
 import next from './tech/next.jpg'
 
 
-import carrent from "./project/carrent.png";
+import reallestate from "./project/reallestate.png";
 import portfolio from "./project/portfolio.png"
 
 import holophin from "./holophin.png"
@@ -59,7 +59,7 @@ export {
   typescript,
   threejs,
   next,
-  carrent,
+  reallestate,
   portfolio,
   holophin,
   gitmap,

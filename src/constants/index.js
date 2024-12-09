@@ -13,12 +13,9 @@ import {
   mongodb,
   git,
   figma,
-  carrent,
+  reallestate,
   next,
   CV_Duncan,
-  portfolio,
-  prescripto,
-  CarShowcase,
   shop,
 } from "../assets";
 export const CVDuncan = CV_Duncan;
@@ -117,9 +114,9 @@ export const technologies = [
 
 export const projects = [
   {
-    name: "Admin Dashboard",
+    name: "Real Estate SAAS",
     description:
-      "An admin dashboard allows at-a-glance access to the crucial information for the specific needs,This Admin Panel includes one Dashboard, Three Pages, Four Apps, and Seven fully functional charts!",
+      "Discover your dream home with our real estate platform. Whether you're looking to buy or rent, we offer a wide range of properties to suit every lifestyle and budget. Explore listings, connect with agents, and make your next move effortlessly.",
     tags: [
       {
         name: "react",
@@ -134,36 +131,14 @@ export const projects = [
         name: "tailwind",
         color: "pink-text-gradient",
       },
-    ],
-    image: carrent,
-    source_code_link: "",
-    visit_here_link:"",
-  },
-  {
-    name: "PortFolio",
-    description:
-      "A personal portfolio website effectively showcases your professional identity,highlighting skills and expertise through a concise ,It features a structured display of projects and case studies,",
-    tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "three.js",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "tailwindcss",
+        name: "Nodejs",
         color: "blue-text-gradient",
       },
     ],
-    image: portfolio,
-    source_code_link: "",
-    visit_here_link:"",
+    image: reallestate,
+    source_code_link: "https://github.com/Faizan1421/property_rent_fullstack",
+    visit_here_link:"https://property-rent-fullstack.onrender.com/",
   },
   {
     name: "3D Shop",
@@ -184,50 +159,6 @@ export const projects = [
       },
     ],
     image: shop,
-    source_code_link: "",
-    visit_here_link:"",
-  },
-  {
-    name: "Prescripto",
-    description:
-      "This is frotend application,i create an online appointment booking website for doctor or hospital. In this hospital website we will add multiple doctors and user can filter the doctor with their specialty.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: prescripto,
-    source_code_link: "",
-    visit_here_link:"",
-  },
-  {
-    name: "Car Showcase",
-    description:
-      "the Car Showcase website presents various car types, showcasing comprehensive information in a well-designed format with advanced filtering and pagination support for an enhanced user experience.",
-    tags: [
-      {
-        name: "next.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "typescript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: CarShowcase,
     source_code_link: "",
     visit_here_link:"",
   },
